@@ -1,0 +1,9 @@
+enum BasicEnum { A, B, C };
+enum MixedEnum { X = 2, Z = 4, Y = 10};
+enum NegativeEnum{K = -20, L = -2, M = 0};
+
+struct Enums{
+	BasicEnum basic;
+	MixedEnum mixed;
+	NegativeEnum negative;
+};
